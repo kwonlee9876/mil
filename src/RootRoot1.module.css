@@ -1,0 +1,336 @@
+.rootRoot {
+  position: relative;
+  gap: 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-image: url(https://file.rendit.io/n/xWbwIS9rNccZJgx6kkQ4.png);
+}
+.navbar {
+  width: 100%;
+  position: relative;
+  gap: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: center;
+  margin: 0px 0px 13px 0px;
+  padding: 16px 335px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #1f1310;
+  box-sizing: border-box;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-image: linear-gradient(90deg, #bfe2eb 0%, #ecbed2 100%);
+  box-shadow: 0px 4px 6px 0px rgba(49, 11, 49, 0.08);
+}
+.logoImg {
+  width: 44.6px;
+  min-width: 0px;
+  min-height: 0px;
+  position: relative;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+.menuIcon {
+  width: 79.2px;
+  min-width: 0px;
+  min-height: 0px;
+  position: relative;
+  flex-shrink: 0;
+  margin: 0px 133px 0px 0px;
+  box-sizing: border-box;
+}
+.homeTab {
+  position: relative;
+  margin: 0px 49.2px 0px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Inter;
+  line-height: 24px;
+  box-sizing: border-box;
+}
+.aboutTab {
+  position: relative;
+  margin: 0px 48.1px 0px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Inter;
+  line-height: 24px;
+  box-sizing: border-box;
+}
+.howToBuyTab {
+  position: relative;
+  margin: 0px 52.2px 0px 0px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: Inter;
+  line-height: 24px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.tokenomicsTab {
+  position: relative;
+  margin: 0px 48.6px 0px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Inter;
+  line-height: 24px;
+  box-sizing: border-box;
+}
+.roadmapTab {
+  position: relative;
+  margin: 0px 138px 0px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Inter;
+  line-height: 24px;
+  box-sizing: border-box;
+}
+.buyButtonContainer {
+  width: 120px;
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px 0.04px 0px 0px;
+  padding: 0px;
+  padding-top: 8px;
+  padding-right: 28.2px;
+  padding-bottom: 10px;
+  padding-left: 28.2px;
+  border-width: 0px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-style: solid;
+  border-color: #262626;
+  box-sizing: content-box;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 0px 0px #121212;
+  cursor: pointer;
+}
+.buyButtonContainer:hover {
+  opacity: 70%;
+}
+.buyButton {
+  position: relative;
+  color: #262626;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Inter;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.connectWalletButtonContainer {
+  width: 139px;
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  padding-top: 9px;
+  padding-right: 15px;
+  padding-bottom: 9px;
+  padding-left: 15px;
+  border-width: 0px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-style: solid;
+  border-color: #262626;
+  box-sizing: content-box;
+  background-color: #000000;
+  box-shadow: 2px 2px 0px 0px #121212;
+  cursor: pointer;
+}
+.connectWalletButtonContainer:hover {
+  opacity: 70%;
+}
+.connectWalletButton {
+  position: relative;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Inter;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.backgroundImage {
+  min-width: 0px;
+  min-height: 0px;
+  position: relative;
+  box-sizing: border-box;
+}
+.headerImageContainer {
+  width: 254px;
+  position: relative;
+  gap: 29.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px 0px 13px 0px;
+  box-sizing: border-box;
+}
+.headerImage {
+  width: 80px;
+  min-width: 0px;
+  min-height: 0px;
+  position: relative;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+.headerTitle {
+  position: relative;
+  align-self: flex-end;
+  margin: 0px 0px 1px 0px;
+  color: #262626;
+  font-size: 44px;
+  font-weight: 700;
+  font-family: Inter;
+  line-height: 60px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.socialMediaContainer {
+  width: 552px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px 29px 0px;
+  box-sizing: border-box;
+}
+.socialIconsContainer {
+  width: 7.25%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  background-size: cover;
+  background-image: url("https://file.rendit.io/n/8DktN7Hngr0rZqW9lXSD.svg");
+}
+.socialMediaIcon {
+  width: 40px;
+  min-width: 0px;
+  min-height: 0px;
+  position: relative;
+  box-sizing: border-box;
+}
+.exchangeContainer {
+  width: 1163px;
+  position: relative;
+  gap: 28.3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px 0px 77px 0px;
+  box-sizing: border-box;
+}
+.exchangeBox {
+  width: 18.05%;
+  position: relative;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 59px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #364c18;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 0px 0px #58362c;
+}
+.exchangeBox1 {
+  width: 18.05%;
+  position: relative;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 61.5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #364c18;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 0px 0px #58362c;
+}
+.exchangeBox2 {
+  width: 18.05%;
+  position: relative;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 55.9px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #364c18;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 0px 0px #58362c;
+}
+.exchangeBox3 {
+  width: 18.05%;
+  position: relative;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 55.6px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #364c18;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 0px 0px #58362c;
+}
+.exchangeBox4 {
+  width: 18.05%;
+  position: relative;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 57.8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #364c18;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 0px 0px #58362c;
+}
+.topIcon {
+  min-width: 0px;
+  min-height: 0px;
+  position: relative;
+  margin: 0px 0px -55.74px 0px;
+  box-sizing: border-box;
+}
